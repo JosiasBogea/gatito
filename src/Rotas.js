@@ -9,8 +9,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Rotas(){
     return <NavigationContainer>
-        <Tab.Navigator
-            tabBar>
+        <Tab.Navigator>
             <Tab.Screen name="Serviços" component={Servicos}/>
             <Tab.Screen name="Carrinho" component={Carrinho}/>
         </Tab.Navigator>
